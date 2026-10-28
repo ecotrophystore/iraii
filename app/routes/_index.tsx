@@ -4,14 +4,13 @@ import {Suspense} from 'react';
 import type {
   RecommendedProductsQuery,
 } from 'storefrontapi.generated';
-import {MockShopNotice} from '~/components/MockShopNotice';
 import {CampaignHero} from '~/components/irai/CampaignHero';
 import {CategoryTiles} from '~/components/irai/CategoryTiles';
 import {EditorialSections} from '~/components/irai/EditorialSections';
 import {ProductCarousel} from '~/components/irai/ProductCarousel';
 
 export const meta: Route.MetaFunction = () => {
-  return [{title: 'Hydrogen | Home'}];
+  return [{title: 'IRAI — Objects with a story'}];
 };
 
 export async function loader(args: Route.LoaderArgs) {
@@ -63,7 +62,6 @@ export default function Homepage() {
   const data = useLoaderData<typeof loader>();
   return (
     <div className="home">
-      {data.isShopLinked ? null : <MockShopNotice />}
       <CampaignHero />
       <CategoryTiles />
       <RecommendedProducts products={data.recommendedProducts} />
