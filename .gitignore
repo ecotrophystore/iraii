@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.shopify/
+.cache/
+.agents/
+.cursor/
+.react-router/
+*.tsbuildinfo
+.DS_Store
