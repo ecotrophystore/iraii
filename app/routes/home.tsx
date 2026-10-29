@@ -56,7 +56,6 @@ export default function Home() {
       <section className="hero" aria-label="Festival edit">
         <img className="hero__img" src="/images/hero-festival.svg" alt="The Festival Edit, carved wall art and brass lamps" width="1600" height="900" fetchPriority="high" />
         <div className="hero__copy">
-          <span className="mono">The Festival Edit</span>
           <h1>Carved slowly. Lit every evening.</h1>
           <div className="hero__ctas">
             <Link className="btn btn--white" to="/collections/wall-art">Shop wall art</Link>
