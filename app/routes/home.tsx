@@ -54,20 +54,8 @@ export default function Home() {
   return (
     <>
       <section className="hero" aria-label="Festival edit">
-        <div className="hero__a">
-          <div className="hero__art">
-            <span className="obj obj--round" style={{ ['--o1' as string]: '#f1d58a', ['--o2' as string]: '#8a5f34', width: '38%' }} aria-hidden="true" />
-          </div>
-          <p className="hero__note">Hung once, kept for generations</p>
-        </div>
-        <div className="hero__strip" aria-hidden="true">
-          <span>Festival edit · Festival edit · Festival edit · Festival edit · Festival edit ·</span>
-        </div>
-        <div className="hero__b">
-          <div className="hero__art"><span className="panel-art" /></div>
-        </div>
+        <img className="hero__img" src="/images/hero-festival.png" alt="Murugan carved shrine panel with a sunrise hill-temple backdrop" width="1672" height="941" fetchPriority="high" />
         <div className="hero__copy">
-          <span className="mono">The Festival Edit</span>
           <h1>Carved slowly. Lit every evening.</h1>
           <div className="hero__ctas">
             <Link className="btn btn--white" to="/collections/wall-art">Shop wall art</Link>
