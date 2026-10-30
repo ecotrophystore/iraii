@@ -54,7 +54,7 @@ export default function Home() {
   return (
     <>
       <section className="hero" aria-label="Festival edit">
-        <img className="hero__img" src="/images/hero-festival.png" alt="Murugan carved shrine panel with a sunrise hill-temple backdrop" width="1672" height="941" fetchPriority="high" />
+        <img className="hero__img" src="/images/hero-festival-v2.png" alt="Murugan carved shrine panel with a sunrise hill-temple backdrop" width="1672" height="941" fetchPriority="high" />
         <div className="hero__copy">
           <h1>Carved slowly. Lit every evening.</h1>
           <div className="hero__ctas">
